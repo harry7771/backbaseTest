@@ -11,6 +11,7 @@
    - npm install
    - npm install -g testcafe
 
+
 ## Run the TestCafe test
 - Execute the following command from the project root folder:  testcafe chrome tests\bblogComment.test.js -e
 - Observe console output for executed workflow.
