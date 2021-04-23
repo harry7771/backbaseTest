@@ -58,7 +58,7 @@ async function enterCommentText(commentText, post) {
   if(post == true) {
     await t.expect(selectors.postCommentButton.visible).ok({timeout: 30000});
     await t.click(selectors.postCommentButton);
-    console.log('Clicked Post Comment.');
+    console.log('Entered following text in comment box and clicked Post Comment: ' + commentText);
     await confirmCommentByText(commentText, true);
   } else {
     console.log('Entered following text in comment box and stepped off of the field: ' + commentText);
