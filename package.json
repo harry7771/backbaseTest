@@ -2,6 +2,7 @@
   "name": "backbasetest",
   "version": "1.0.0",
   "dependencies": {
-    "testcafe": "^1.14.0"
+    "testcafe": "^1.14.0",
+    "testcafe-reporter-html": "^1.4.6"
   }
 }
